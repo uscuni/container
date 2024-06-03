@@ -3,6 +3,7 @@ FROM jupyter/minimal-notebook:latest
 # Derived from darribas/gds_py for faster iteration
 
 LABEL maintainer="Martin Fleischmann <martin.fleischmann@natur.cuni.cz>"
+LABEL org.opencontainers.image.source = "https://github.com/uscuni/container"
 
 # https://github.com/ContinuumIO/docker-images/blob/master/miniconda3/Dockerfile
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
