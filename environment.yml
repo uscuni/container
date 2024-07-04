@@ -13,6 +13,7 @@ dependencies:
   - dask
   - dask-geopandas
   - datashader
+  - fast_hdbscan
   - flake8
   - geoalchemy2
   - geocube
@@ -67,11 +68,13 @@ dependencies:
   - scikit-learn
   - scikit-mobility
   - seaborn
+  - sidecar
   - spatialpandas
   - sqlalchemy
   - statsmodels
   - tabulate
   - topojson
+  - umap-learn
   - urbanaccess
   - xarray_leaflet
   - xarray-spatial

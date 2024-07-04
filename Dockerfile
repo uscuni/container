@@ -4,7 +4,7 @@ LABEL maintainer="Martin Fleischmann <martin.fleischmann@natur.cuni.cz>"
 LABEL org.opencontainers.image.source = "https://github.com/uscuni/container"
 
 # Set version
-ENV DOCKER_ENV_VERSION "24.6.2"
+ENV DOCKER_ENV_VERSION "24.7"
 
 USER $NB_UID
 

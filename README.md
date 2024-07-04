@@ -12,11 +12,11 @@ Update the environment file and/or Dockerfile if you want to make changes to the
 2. Build the container with the version tag
 
 ```sh
-docker build -t ghcr.io/uscuni/base:24.6 .
+docker build -t ghcr.io/uscuni/base:24.7 .
 ```
 
 3. Push the image to the GitHub Container Repository.
 
 ```sh
-docker push ghcr.io/uscuni/base:24.6
+docker push ghcr.io/uscuni/base:24.7
 ```
